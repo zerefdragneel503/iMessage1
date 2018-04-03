@@ -1,0 +1,53 @@
+body {
+    background-image: url('../images/bg-01.jpg');
+    background-size: cover;
+}
+
+.col-sm-10 {
+    margin: auto;
+    padding-top: 10px;
+    width: 750px;
+}
+
+.jumbotron {
+    background-color: white;
+    border: none;
+}
+
+.form-control {
+    margin-left: 10px;
+    border: none;
+}
+
+.form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.border-bottom-1 {
+    border-bottom: 1px solid black;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+}
+
+input:not(focus)::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+}
+
+input:focus::-ms-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+}
